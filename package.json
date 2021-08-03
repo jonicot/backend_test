@@ -1,0 +1,26 @@
+{
+  "name": "comptalib-backend-test",
+  "version": "1.0.0",
+  "description": "backend test for comptalib interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./app/test/*"
+  },
+  "keywords": [
+    "node.js",
+    "sequelize",
+    "mysql"
+  ],
+  "author": "jnicot",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^9.0.3",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5",
+    "should": "^13.2.3",
+    "supertest": "^6.1.4"
+  }
+}
